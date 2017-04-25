@@ -62,4 +62,13 @@ def game_loop(n):
 
 if __name__ == '__main__':
     colorama.init()
-    game_loop(get_choice())
+    continue_game = 'y'
+    while continue_game == 'y':
+        game_loop(get_choice())
+        print()
+        continue_text = input('Play again (Yes or No): ')
+        if continue_text:
+            continue_game = continue_text[0].lower()
+        else:
+            continue_game = 'n'
+
