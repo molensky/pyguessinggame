@@ -1,2 +1,7 @@
 # pyguessinggame
-Guessing game for python
+Guessing game for Python
+
+Requires termcolor and colorama
+
+Installation instructions:
+TODO
